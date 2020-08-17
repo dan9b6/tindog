@@ -145,8 +145,9 @@ p {
 
 @media (max-width: 1028px) {
   h1,
-  h2 {
-    font-size: 5rem;
+  h2,
+  h3 {
+    font-size: 4.5rem;
   }
 
   .navbar-brand {
@@ -167,8 +168,12 @@ p {
     transform: rotate(0);
   }
 
+  #features {
+    font-size: 2.5rem;
+  }
+
   #pricing {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   #pricing h2 {
