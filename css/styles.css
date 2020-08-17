@@ -144,6 +144,20 @@ p {
 /* Media Queries Section */
 
 @media (max-width: 1028px) {
+  h1,
+  h2 {
+    font-size: 5rem;
+  }
+
+  .navbar-brand {
+    font-size: 4rem;
+  }
+
+  .nav-link {
+    margin: 0;
+    font-size: 3rem;
+  }
+
   #title {
     text-align: center;
   }
@@ -153,7 +167,15 @@ p {
     transform: rotate(0);
   }
 
-  .nav-link {
-    margin: 0;
+  #pricing {
+    font-size: 3rem;
+  }
+
+  #pricing h2 {
+    margin-bottom: 4rem;
+  }
+
+  .btn {
+    font-size: 2rem;
   }
 }
